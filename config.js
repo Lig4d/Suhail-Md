@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email = " lenleeslee@gmail.com"
+global.location="Chinhoyi,Zimbabwe."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -47,8 +47,8 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "true"
-global.readmessage = process.env.READ_MESSAGE || "true"
+global.readcmds = process.env.READ_COMMAND || "false"
+global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
